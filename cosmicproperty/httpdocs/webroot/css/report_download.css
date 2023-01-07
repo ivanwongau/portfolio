@@ -1,0 +1,285 @@
+* {
+    -webkit-print-color-adjust: inherit;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+
+
+.report-download-form {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    margin-bottom: 50px;
+
+}
+
+.report-download-form .form-container {
+    grid-column: 2;
+}
+
+
+.section-a {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 50px auto;
+    margin-bottom: 100px;
+
+}
+
+.section-b,
+.section-e {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 50px auto;
+    margin-bottom: 100px;
+
+}
+
+
+
+.section-c {
+    display: grid;
+    grid-template-columns: 1fr 1000px 1fr;
+    grid-template-rows: 50px auto;
+
+}
+
+.section-d {
+    display: grid;
+    grid-template-columns: 1fr 1000px 1fr;
+    grid-template-rows: 50px auto;
+
+}
+
+
+
+
+.section-a .table-container,
+.section-b .table-container,
+.section-e .table-container {
+    margin-top: 20px;
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: stretch;
+    align-self: stretch;
+
+}
+
+.section-a .header,
+.section-b .header,
+.section-c .header,
+.section-d .header,
+.section-e .header {
+    grid-row: 1;
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+
+}
+
+
+
+.section-a .download-btn,
+.section-b .download-btn,
+.section-c .download-btn,
+.section-d .download-btn,
+.section-e .download-btn {
+    justify-self: end;
+}
+
+
+
+
+
+.table-container .report-table,
+.table-container .sinking-fund-table,
+.table-container .liabilities-table {
+    border-collapse: collapse;
+    width: 100%;
+    padding-right: 1rem;
+    font-size: 12px;
+    overflow: hidden;
+
+}
+
+.table-decoration thead tr {
+    background-color: #44a2d2;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+
+
+
+}
+
+
+
+.table-decoration tbody tr {
+    border-bottom: 1px solid #dddddd;
+
+}
+
+.table-decoration th,
+.table-decoration tbody td {
+    max-width: 250px;
+    min-width: 80px;
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+    overflow: hidden;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+
+
+}
+
+.table-decoration thead tr td:first-child,
+.table-decoration tbody tr td:first-child {
+    text-align: right;
+
+
+}
+
+
+.lot-header td:nth-child(3) {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.total-lot-header td:nth-child(3) {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+
+
+.sinking-fund-table .table-header,
+.liabilities-table .table-header {
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+    background: #ccffcc;
+    border: black solid .5px;
+
+
+}
+
+.sinking-fund-table .table-header th,
+.liabilities-table .table-header th {
+    text-align: center;
+
+
+}
+
+
+.chart-container {
+    height: 45vh;
+    /* max-width: 1000px; */
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+@media all and (max-width:481px) {
+
+    .section-a,
+    .section-b {
+        grid-template-rows: 100px auto;
+
+
+    }
+
+    .section-c {
+        grid-template-columns: 1000px auto;
+        grid-template-rows: 100px auto;
+
+    }
+
+    .section-a .header,
+    .section-b .header,
+    .section-c .header {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        grid-column: 1;
+
+    }
+
+    .section-a .header h2,
+    .section-b .header h2,
+    .section-c .header h2 {
+        margin-bottom: 10px;
+
+    }
+
+    .section-c .chart-container {
+        grid-column: 1;
+    }
+
+    .section-c .chart-container {
+        max-width: 1000px;
+    }
+
+
+}
+
+/* Button customization */
+
+.download-btn {
+    width: 250px;
+    height: 50px;
+    text-align: left;
+    position: relative;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px #aaa;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    padding-left: 20px;
+    box-sizing: border-box;
+
+
+}
+
+.download-btn::after {
+    content: "";
+    position: absolute;
+    background-color: #44a2d2;
+    width: 30px;
+    margin-right: 155px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    transform: skew(-30deg);
+}
+
+.download-btn::before {
+    content: "download";
+    line-height: 50px;
+    text-align: center;
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+    background-color: #44a2d2;
+    width: 170px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+}
+
+
+.download-btn:hover {
+    filter: brightness(.8);
+}

@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.section-a {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.section-a form {
+    padding-bottom: 200px;
+}
+
+.page-header {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: 100px;
+}
+
+.page-header a {
+    grid-column: 2;
+
+}
+
+@media all and (max-width:481px) {
+    #divider_add_lots {
+
+        visibility: visible;
+    }
+}

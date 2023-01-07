@@ -1,0 +1,16 @@
+table,th,td{
+    border:1px solid gray;
+}
+
+th{
+    background-color: #153C80;
+    color: white;
+    /*width: 1%;*/
+    /*white-space: nowrap;*/
+}
+
+
+table thead th { color: white; }
+
+table thead a { color: white; }
+

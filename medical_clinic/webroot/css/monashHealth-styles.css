@@ -1,0 +1,73 @@
+.button {
+    background-color: #00A39A;
+    border-color: #00A39A;
+    transition-duration: 0.4s;
+}
+
+.pinkButtons {
+    background-color: #ED4391;
+    border-color: #ED4391;
+    border-radius:7%;
+    font-size:0.875;
+    word-wrap: break-word;
+    width: 100px; // only for IE8
+max-width: 100%;
+}
+
+.pinkButtons:hover {
+    background-color: #25215D;
+    color: white;
+}
+
+.greenButtons {
+    background-color: #00A39A;
+    border-color: #00A39A;
+    border-radius:7%;
+    font-size:0.875;
+    word-wrap: break-word;
+    width: 100px; // only for IE8
+    max-width: 100%;
+}
+
+.greenButtons:hover {
+    background-color: #25215D;
+    color: white;
+}
+
+.grayDiv {
+    background-color: lightgrey;
+    padding: 1%;
+}
+
+.blueDiv {
+    background-color: #0C4991;
+    color: white;
+    padding: 1%;
+}
+
+.whiteDiv {
+    background-color: white;
+    color: white;
+    padding: 1%;
+}
+
+.info:hover {
+    background-color: white;
+    padding: 0 0 0 5px;
+    width: 100%;
+    text-align: left !important;
+}
+
+#headingDiv {
+    width: 100%;
+}
+
+.subtext {
+    color: gray;
+}
+
+.topTabBar {
+    margin-left: 1%;
+    padding-right: 30%;
+    padding-top: 1%
+}

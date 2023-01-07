@@ -1,0 +1,50 @@
+2021-10-03 08:54:30 Notice: Notice (8): Undefined index: ItemComments in [C:\xampp\htdocs\cosmicproperty\httpdocs\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 252]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 252
+Twig\Template::getAttribute() - ROOT\vendor\twig\twig\src\Template.php, line 702
+__TwigTemplate_f7241fdc297208d508f836337860565a8b293732d48e63dd5fd73d1941a93977::doDisplay() - ROOT\tmp\cache\twigView\08\08e3fa2124a38e2c67bfe1c1c67ab0279568a238cb140b0963f1acbeb844936b.php, line 33
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 453
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 420
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 432
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 91
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 1018
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 115
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 101
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 282
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 64
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 283
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 517
+Cake\Console\CommandRunner::runShell() - CORE\src\Console\CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 162
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2021-10-03 08:54:30 Notice: Notice (8): Trying to access array offset on value of type null in [C:\xampp\htdocs\cosmicproperty\httpdocs\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 252]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 252
+Twig\Template::getAttribute() - ROOT\vendor\twig\twig\src\Template.php, line 702
+__TwigTemplate_f7241fdc297208d508f836337860565a8b293732d48e63dd5fd73d1941a93977::doDisplay() - ROOT\tmp\cache\twigView\08\08e3fa2124a38e2c67bfe1c1c67ab0279568a238cb140b0963f1acbeb844936b.php, line 33
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 453
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 420
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 432
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 91
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 1018
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 115
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 101
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 282
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 64
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 283
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 517
+Cake\Console\CommandRunner::runShell() - CORE\src\Console\CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 162
+[main] - ROOT\bin\cake.php, line 12
+
+
+

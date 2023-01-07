@@ -1,0 +1,486 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+.header .logo img {
+    max-height: 75px;
+}
+
+.nospace {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.values .box img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.values .box imgl {
+    margin: 0 15px 10px 0;
+    clear: left;
+}
+
+.values .box imgr {
+    margin: 0 0 10px 15px;
+    clear: right;
+}
+
+.values .box *, .values .box *::before, .values .box *::after {
+    box-sizing: border-box;
+}
+
+.values .box figures {}
+
+.values .box figures>li {}
+
+.values .box figures>li:last-child {
+    margin-bottom: 0;
+}
+
+/* Used when elements stack in small viewports */
+
+.values .box figure {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+}
+
+.values .box figcaption {}
+
+.values .box a {
+    font-size: 13px;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, .55);
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 10px;
+    border-top: 1px solid;
+    text-transform: uppercase;
+}
+
+.values .box figcaption a::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 0 15px;
+    content: '\f105';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    border-left: 1px solid;
+}
+
+.values .box figure figcaption time {
+    display: block;
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    width: 60px;
+    height: auto;
+    padding: 8px 0;
+    text-align: center;
+}
+
+.values .box figure figcaption time * {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.values .box figure figcaption time strong {
+    margin-bottom: -5px;
+}
+
+.values .box figcaption a, .values .box figure figcaption a::after {
+    border-color: rgba(255, 255, 255, .3);
+}
+
+.values .box. :hover figcaption a {
+    background: #629BAF;
+}
+
+.values .box. figcaption time {
+    color: #FFFFFF;
+    background-color: rgba(98, 155, 175, .5);
+    /* #629BAF */
+}
+
+.descriptionsOfCompany .box {
+    padding: 15px;
+    box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+    /*text-align: center;*/
+    transition: 0.3s;
+    height: 100%;
+}
+
+.descriptionsOfCompany .box img {
+    padding: 20px 35px;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.descriptionsOfCompany .box h3 {
+    font-size: 24px;
+    color: #012970;
+    font-weight: 900;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.descss .box:hover {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+.descriptionsOfCompany .box:hover img {
+    transform: scale(1);
+}
+
+.descriptionsOfCompany .box p {
+    font-size: 12px;
+    /*text-align:center;*/
+}
+
+.footer img {
+    width: auto;
+    max-width: 50%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.footer imgl {
+    margin: 0 15px 10px 0;
+    clear: left;
+}
+
+.footer imgr {
+    margin: 0 0 10px 15px;
+    clear: right;
+}
+
+.footer.borderedbox {
+    border: 1px solid;
+}
+
+/* Spacing
+--------------------------------------------------------------------------------------------------------------- */
+
+.btmspace-10 {
+    margin-bottom: 10px;
+}
+
+.footer.btmspace-15 {
+    margin-bottom: 15px;
+}
+
+.btmspace-30 {
+    margin-bottom: 30px;
+}
+
+.btmspace-50 {
+    margin-bottom: 50px;
+}
+
+.btmspace-80 {
+    margin-bottom: 80px;
+}
+
+.inspace-5 {
+    padding: 5px;
+}
+
+.inspace-10 {
+    padding: 10px;
+}
+
+.inspace-15 {
+    padding: 15px;
+}
+
+.inspace-30 {
+    padding: 30px;
+}
+
+.inspace-50 {
+    padding: 50px;
+}
+
+.inspace-80 {
+    padding: 80px;
+}
+
+/* Spacing
+--------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+    .home-box {
+        text-align: center
+    }
+}
+
+/*.background_login{*/
+
+/*    background-image: url("../img/background1.jpg");*/
+
+/*}*/
+
+.register_form .row {
+    --bs-gutter-x: 0;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.brand-wrapper {
+    margin-bottom: 19px;
+}
+
+.brand-wrapper .logo {
+    height: 3px;
+}
+
+.login-card {
+    border: 0;
+    border-radius: 27.5px;
+    box-shadow: 0 10px 30px 0 rgba(172, 168, 168, 0.43);
+    overflow: hidden;
+}
+
+.login-card-img {
+    border-radius: 0;
+    /*position: absolute;*/
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.login-card .card-body {
+    padding: 85px 60px 60px;
+}
+
+@media (max-width: 422px) {
+    .login-card .card-body {
+        padding: 35px 24px;
+    }
+}
+
+.login-card-description {
+    font-size: 25px;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 23px;
+}
+
+.login-card form {
+    max-width: 326px;
+}
+
+.login-card .form-control {
+    border: 1px solid #d5dae2;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    min-height: 45px;
+    font-size: 13px;
+    /*line-height: 15;*/
+    font-weight: normal;
+}
+
+.login-card .form-control::-webkit-input-placeholder {
+    color: #919aa3;
+}
+
+.login-card .form-control::-moz-placeholder {
+    color: #919aa3;
+}
+
+.login-card .form-control:-ms-input-placeholder {
+    color: #919aa3;
+}
+
+.login-card .form-control::-ms-input-placeholder {
+    color: #919aa3;
+}
+
+.login-card .form-control::placeholder {
+    color: #919aa3;
+}
+
+.login-card .login-btn {
+    padding: 13px 20px 12px;
+    background-color: #000;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.login-card .login-btn:hover {
+    border: 1px solid #000;
+    background-color: transparent;
+    color: #000;
+}
+
+.login-card .forgot-password-link {
+    font-size: 14px;
+    color: #919aa3;
+    margin-bottom: 12px;
+}
+
+.login-card-footer-text {
+    font-size: 16px;
+    color: #0d2366;
+    margin-bottom: 60px;
+}
+
+.login-card-footer-text .text-reset {
+    color: rgba(30, 139, 195, 1);
+    all: revert;
+}
+
+@media (max-width: 767px) {
+    .login-card-footer-text {
+        margin-bottom: 24px;
+    }
+}
+
+.login-card-footer-nav a {
+    font-size: 14px;
+    color: #919aa3;
+}
+
+/*----------------register ----------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+/*body {*/
+
+/*    background-color: #535fe6;*/
+
+/*    font-family: "Poppins", sans-serif;*/
+
+/*    font-weight: 300*/
+
+/*}*/
+
+.height {
+    height: 100vh
+}
+
+.z.card {
+    border: none;
+    padding: 20px;
+    /*background-color: #1c1e21;*/
+    color: #fff
+}
+
+.z.circle {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5855e7;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 50%
+}
+
+.z.form-input {
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+
+.z.form-input i {
+    position: absolute;
+    font-size: 18px;
+    top: 15px;
+    left: 10px
+}
+
+.z.form-control {
+    height: 50px;
+    background-color: #1c1e21;
+    text-indent: 24px;
+    font-size: 15px
+}
+
+.z.form-control:focus {
+    background-color: #25272a;
+    box-shadow: none;
+    color: #fff;
+    border-color: #4f63e7
+}
+
+.z.form-check-label {
+    margin-top: 2px;
+    font-size: 14px
+}
+
+.z.signup {
+    height: 50px;
+    font-size: 14px
+}
+
+.z.social {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer
+}
+
+.z.social:hover {
+    background-color: #0d6efd;
+    border-color: #0d6efd
+}
+
+/*-------------------------Message inform---------------------------------*/
+
+.error2_div {
+    position: relative;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 2px;
+    height: 50px;
+    width: 96%;
+    background: palevioletred;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.success2_div {
+    position: relative;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 2px;
+    height: 50px;
+    width: 96%;
+    background: lightgreen;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}

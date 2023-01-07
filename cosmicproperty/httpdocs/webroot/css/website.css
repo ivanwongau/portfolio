@@ -1,0 +1,215 @@
+/*ABOUTS US*/
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white;}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: black;}
+.subtitle{
+    font-size:25px ;}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;}
+.image{
+    height: 250px;
+    width: 100%;}
+.image2{
+    height: 50px;
+    width: 50px;}
+.height250{
+    height: 250px;}
+
+/*CONTACT US*/
+.headerCU{
+    position: relative;
+    background-color: white;
+    text-align: center;
+    color: black;}
+.imageCU{
+    display: block;
+    float: right;
+    width: 45%;
+    height: 250px;
+    margin-left: 0;
+}
+.writingCU{
+    display: block;
+    float: left;
+    width: 45%;
+    height: 250px;
+    margin-left: 0 ;
+    margin-top: 30px}
+.enquiriesCU{
+    float: left;
+    width: 70%;
+    height: 600px;}
+.enquiriesCU2{
+    float: left;
+    width: 50%;
+    height: 200px;}
+.contactimg{
+    height: 40px;
+    width: 5%;
+    float: left;}
+.contactimg2{
+    height: 200px;
+    width: 20%;
+    float: right;
+    margin-right: 15%;
+    margin-top: 50px}
+.formwidth{
+    width: 100%;
+}
+.formwidth2{
+    width: 100%;
+    height: 200px;
+}
+.AUbackimage{
+    background: url('../img/aboutus2.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+/*commercial construction*/
+.headerWordCC{
+    position: absolute;
+    left: 15%;
+    font-size: 25px;
+    color: black;}
+.headerCC{
+    height: 250px;
+    background-color: white;
+    position: relative;}
+.borderCC{
+    border :1px solid black;background-color:grey;opacity: 0.5;}
+
+
+/*used by a lot*/
+.imagetable{margin-left:10%;width:80%;border:0px solid black;background-color: white;
+    border-right: 0px white;border-left: 0px white; margin-right: 10%}
+.tableWriting{text-align: center;font-weight: bold;font-size: 25px;background-color: white}
+.explanation{
+    margin-left: 43%;
+    margin-right: 0;
+    height: 250px;
+    font-size: 20px;}
+.explanationimg{
+    float: left;
+    width: 30%;
+    height: 250px;
+    margin-left: 7%;}
+.contactUsbutton{
+    margin-left: 10%;margin-top: 50px;width: 20% ;height:70px;background-color: #2D3748}
+.explanationimg2{
+    width: 40%;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+
+.owners{
+    background-color: #EBF0D6;
+}
+
+
+/*collation of background image*/
+.insbackimage{
+    background: url('../img/ins.jpg') no-repeat;
+    background-size: 100% 100%;}
+.projmanabackimage{
+    background: url('../img/projmanahed.jpg') no-repeat;
+    background-size: 100% 100%;}
+.commerconbackimage{
+    background: url('../img/construction4.jpg') no-repeat;
+    background-size: 100% 100%;}
+.footerbackimage{
+    background: url('../img/footer.jpg') no-repeat;
+    background-size: 100% 100%;}
+.contactusbackimage{
+    background: url('../img/contactheader.jpg') no-repeat;
+    background-size: 100% 100%;}
+
+
+/*.button{*/
+/*    margin-left: 0;margin-right: auto;margin-top: 50px;width: 20% ;height:70px;background-color: #f2dede*/
+/*}*/
+.button {
+    background-color: #629BAF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top:50px ;
+    border-radius: 5px;
+
+}
+
+.contactUsbuttonmid{
+    /*border-radius:10px;margin-left: 80%;margin-right: auto;margin-top: 50px;width:340px;height:120px;background-color: #2D3748}*/
+    background-color: #629BAF;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 45%;
+    margin-top: 50px;
+}
+
+.contactUsbuttonBCR{
+    /*border-radius:10px;margin-left: 80%;margin-right: auto;margin-top: 50px;width:340px;height:120px;background-color: #2D3748}*/
+    background-color: #629BAF;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+
+.contactUsbuttonLTMP{
+    /*border-radius:10px;margin-left: 80%;margin-right: auto;margin-top: 50px;width:340px;height:120px;background-color: #2D3748}*/
+    background-color: #629BAF;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+
+.subsbuttonLTMP{
+    /*border-radius:10px;margin-left: 80%;margin-right: auto;margin-top: 50px;width:340px;height:120px;background-color: #2D3748}*/
+    background-color: #629BAF;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 50px;
+}

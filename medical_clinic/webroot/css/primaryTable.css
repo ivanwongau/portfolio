@@ -1,0 +1,15 @@
+table,th,td{
+    border:1px solid gray;
+}
+
+th{
+    background-color: #153C80;
+    color: gray;
+}
+
+div table tr th { color: white }
+div table tr th a { color: white }
+
+table thead th { color: white; }
+
+table thead a { color: white; }
